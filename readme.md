@@ -1,6 +1,6 @@
 # Script Title
 
-![OpenCV](https://user-images.githubusercontent.com/87910771/demo.jpg)
+![OpenCV](https://github.com/Sarikasoni23/Face_Recognition/blob/master/images/demo.jpg)
 
 
 ## 🛠️ Description
