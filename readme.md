@@ -1,26 +1,45 @@
-# Script Title
+# Real-Time Face Detection with OpenCV
 
-![OpenCV](https://github.com/Sarikasoni23/Face_Recognition/blob/master/images/demo.jpg)
+A lightweight computer-vision project that performs **real-time face detection from a webcam feed** using Python and OpenCV.
 
+> Note: the current implementation performs face **detection**, not biometric identity recognition or authentication.
 
-## 🛠️ Description
+## Features
 
-This is A Face Recognition Project developed using OpenCV Module in Python.
-This Display a Blue Reactangle Frame around Faces.
+- Captures live video from the default webcam
+- Converts frames to grayscale for detection
+- Uses OpenCV's pre-trained Haar cascade classifier
+- Detects frontal faces in real time
+- Draws bounding boxes around detected faces
+- Exits cleanly when the user presses `q`
 
-## ⚙️ Languages or Frameworks Used
+## Tech Stack
 
-Open Command Prompt and use the following command to install the required modules:
+- Python
+- OpenCV
+- Haar Cascade Classifier
 
-```sh 
+## Installation
+
+```bash
 pip install opencv-python
 ```
 
+## Run
 
-## 🌟 How to run
-
-Just open a terminal in the folder where your script is located and run the following command:
-
-```sh
+```bash
 python main.py
 ```
+
+Make sure a webcam is available to the application.
+
+## Preview
+
+![Face detection preview](images/demo.jpg)
+
+## Possible Improvements
+
+- Add confidence/quality controls
+- Add face recognition using trained embeddings
+- Add attendance or authentication workflows
+- Add automated tests and configuration options
